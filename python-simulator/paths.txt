@@ -1,0 +1,1376 @@
+Path: Node_0_0 -> Node_0_0 -> Availability: 0.9801, Path Availability: 1, Latency: 1, Carbon Footprint: 792.0
+  Channel: ['Node_0_0'], Latency: 1, Carbon Footprint: 792.0
+
+Path: Node_0_0 -> Node_0_1 -> Availability: 0.9702989999999999, Path Availability: 0.99, Latency: 3, Carbon Footprint: 1728.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 3, Carbon Footprint: 1728.0
+
+Path: Node_0_0 -> Node_0_2 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_0_0 -> Node_0_3 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_0_0 -> Node_1_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_0 -> Node_1_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_0 -> Node_1_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_0 -> Node_1_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_0 -> Node_2_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_0 -> Node_2_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_0 -> Node_2_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_0 -> Node_2_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_0 -> Node_3_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_0 -> Node_3_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_0 -> Node_3_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_0 -> Node_3_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_0', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_1 -> Node_0_0 -> Availability: 0.9702989999999999, Path Availability: 0.99, Latency: 3, Carbon Footprint: 1728.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 3, Carbon Footprint: 1728.0
+
+Path: Node_0_1 -> Node_0_1 -> Availability: 0.9801, Path Availability: 1, Latency: 1, Carbon Footprint: 792.0
+  Channel: ['Node_0_1'], Latency: 1, Carbon Footprint: 792.0
+
+Path: Node_0_1 -> Node_0_2 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_0_1 -> Node_0_3 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_0_1 -> Node_1_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_1 -> Node_1_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_1 -> Node_1_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_1 -> Node_1_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_1 -> Node_2_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_1 -> Node_2_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_1 -> Node_2_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_1 -> Node_2_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_1 -> Node_3_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_1 -> Node_3_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_1 -> Node_3_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_1 -> Node_3_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_1', 'EdgeSwitch_0_0', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_2 -> Node_0_0 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_0_2 -> Node_0_1 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_0_2 -> Node_0_2 -> Availability: 0.9801, Path Availability: 1, Latency: 1, Carbon Footprint: 792.0
+  Channel: ['Node_0_2'], Latency: 1, Carbon Footprint: 792.0
+
+Path: Node_0_2 -> Node_0_3 -> Availability: 0.9702989999999999, Path Availability: 0.99, Latency: 3, Carbon Footprint: 1728.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 3, Carbon Footprint: 1728.0
+
+Path: Node_0_2 -> Node_1_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_2 -> Node_1_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_2 -> Node_1_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_2 -> Node_1_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_2 -> Node_2_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_2 -> Node_2_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_2 -> Node_2_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_2 -> Node_2_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_2 -> Node_3_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_2 -> Node_3_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_2 -> Node_3_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_2 -> Node_3_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_2', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_3 -> Node_0_0 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_0_3 -> Node_0_1 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_0_3 -> Node_0_2 -> Availability: 0.9702989999999999, Path Availability: 0.99, Latency: 3, Carbon Footprint: 1728.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 3, Carbon Footprint: 1728.0
+
+Path: Node_0_3 -> Node_0_3 -> Availability: 0.9801, Path Availability: 1, Latency: 1, Carbon Footprint: 792.0
+  Channel: ['Node_0_3'], Latency: 1, Carbon Footprint: 792.0
+
+Path: Node_0_3 -> Node_1_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_3 -> Node_1_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_3 -> Node_1_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_3 -> Node_1_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_3 -> Node_2_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_3 -> Node_2_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_3 -> Node_2_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_3 -> Node_2_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_0_3 -> Node_3_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_3 -> Node_3_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_3 -> Node_3_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_0_3 -> Node_3_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_0_3', 'EdgeSwitch_0_1', 'AggrSwitch_0_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_0 -> Node_0_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_0 -> Node_0_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_0 -> Node_0_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_0 -> Node_0_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_0 -> Node_1_0 -> Availability: 0.9801, Path Availability: 1, Latency: 1, Carbon Footprint: 792.0
+  Channel: ['Node_1_0'], Latency: 1, Carbon Footprint: 792.0
+
+Path: Node_1_0 -> Node_1_1 -> Availability: 0.9702989999999999, Path Availability: 0.99, Latency: 3, Carbon Footprint: 1728.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 3, Carbon Footprint: 1728.0
+
+Path: Node_1_0 -> Node_1_2 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_1_0 -> Node_1_3 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_1_0 -> Node_2_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_0 -> Node_2_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_0 -> Node_2_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_0 -> Node_2_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_0 -> Node_3_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_0 -> Node_3_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_0 -> Node_3_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_0 -> Node_3_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_0', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_1 -> Node_0_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_1 -> Node_0_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_1 -> Node_0_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_1 -> Node_0_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_1 -> Node_1_0 -> Availability: 0.9702989999999999, Path Availability: 0.99, Latency: 3, Carbon Footprint: 1728.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 3, Carbon Footprint: 1728.0
+
+Path: Node_1_1 -> Node_1_1 -> Availability: 0.9801, Path Availability: 1, Latency: 1, Carbon Footprint: 792.0
+  Channel: ['Node_1_1'], Latency: 1, Carbon Footprint: 792.0
+
+Path: Node_1_1 -> Node_1_2 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_1_1 -> Node_1_3 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_1_1 -> Node_2_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_1 -> Node_2_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_1 -> Node_2_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_1 -> Node_2_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_1 -> Node_3_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_1 -> Node_3_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_1 -> Node_3_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_1 -> Node_3_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_1', 'EdgeSwitch_1_0', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_2 -> Node_0_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_2 -> Node_0_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_2 -> Node_0_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_2 -> Node_0_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_2 -> Node_1_0 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_1_2 -> Node_1_1 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_1_2 -> Node_1_2 -> Availability: 0.9801, Path Availability: 1, Latency: 1, Carbon Footprint: 792.0
+  Channel: ['Node_1_2'], Latency: 1, Carbon Footprint: 792.0
+
+Path: Node_1_2 -> Node_1_3 -> Availability: 0.9702989999999999, Path Availability: 0.99, Latency: 3, Carbon Footprint: 1728.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 3, Carbon Footprint: 1728.0
+
+Path: Node_1_2 -> Node_2_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_2 -> Node_2_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_2 -> Node_2_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_2 -> Node_2_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_2 -> Node_3_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_2 -> Node_3_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_2 -> Node_3_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_2 -> Node_3_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_2', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_3 -> Node_0_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_3 -> Node_0_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_3 -> Node_0_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_3 -> Node_0_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_3 -> Node_1_0 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_1_3 -> Node_1_1 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_1_3 -> Node_1_2 -> Availability: 0.9702989999999999, Path Availability: 0.99, Latency: 3, Carbon Footprint: 1728.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 3, Carbon Footprint: 1728.0
+
+Path: Node_1_3 -> Node_1_3 -> Availability: 0.9801, Path Availability: 1, Latency: 1, Carbon Footprint: 792.0
+  Channel: ['Node_1_3'], Latency: 1, Carbon Footprint: 792.0
+
+Path: Node_1_3 -> Node_2_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_3 -> Node_2_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_3 -> Node_2_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_3 -> Node_2_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_1_3 -> Node_3_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_3 -> Node_3_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_3 -> Node_3_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_1_3 -> Node_3_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_1_3', 'EdgeSwitch_1_1', 'AggrSwitch_1_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_0 -> Node_0_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_0 -> Node_0_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_0 -> Node_0_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_0 -> Node_0_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_0 -> Node_1_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_0 -> Node_1_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_0 -> Node_1_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_0 -> Node_1_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_0 -> Node_2_0 -> Availability: 0.9801, Path Availability: 1, Latency: 1, Carbon Footprint: 792.0
+  Channel: ['Node_2_0'], Latency: 1, Carbon Footprint: 792.0
+
+Path: Node_2_0 -> Node_2_1 -> Availability: 0.9702989999999999, Path Availability: 0.99, Latency: 3, Carbon Footprint: 1728.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 3, Carbon Footprint: 1728.0
+
+Path: Node_2_0 -> Node_2_2 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_2_0 -> Node_2_3 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_2_0 -> Node_3_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_0 -> Node_3_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_0 -> Node_3_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_0 -> Node_3_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_0', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_1 -> Node_0_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_1 -> Node_0_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_1 -> Node_0_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_1 -> Node_0_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_1 -> Node_1_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_1 -> Node_1_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_1 -> Node_1_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_1 -> Node_1_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_1 -> Node_2_0 -> Availability: 0.9702989999999999, Path Availability: 0.99, Latency: 3, Carbon Footprint: 1728.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 3, Carbon Footprint: 1728.0
+
+Path: Node_2_1 -> Node_2_1 -> Availability: 0.9801, Path Availability: 1, Latency: 1, Carbon Footprint: 792.0
+  Channel: ['Node_2_1'], Latency: 1, Carbon Footprint: 792.0
+
+Path: Node_2_1 -> Node_2_2 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_2_1 -> Node_2_3 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_2_1 -> Node_3_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_1 -> Node_3_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_1 -> Node_3_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_1 -> Node_3_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_1', 'EdgeSwitch_2_0', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_2 -> Node_0_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_2 -> Node_0_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_2 -> Node_0_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_2 -> Node_0_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_2 -> Node_1_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_2 -> Node_1_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_2 -> Node_1_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_2 -> Node_1_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_2 -> Node_2_0 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_2_2 -> Node_2_1 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_2_2 -> Node_2_2 -> Availability: 0.9801, Path Availability: 1, Latency: 1, Carbon Footprint: 792.0
+  Channel: ['Node_2_2'], Latency: 1, Carbon Footprint: 792.0
+
+Path: Node_2_2 -> Node_2_3 -> Availability: 0.9702989999999999, Path Availability: 0.99, Latency: 3, Carbon Footprint: 1728.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 3, Carbon Footprint: 1728.0
+
+Path: Node_2_2 -> Node_3_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_2 -> Node_3_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_2 -> Node_3_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_2 -> Node_3_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_2', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_3 -> Node_0_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_3 -> Node_0_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_3 -> Node_0_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_3 -> Node_0_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_3 -> Node_1_0 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_3 -> Node_1_1 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_3 -> Node_1_2 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_3 -> Node_1_3 -> Availability: 0.96059601, Path Availability: 0.9801, Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 34, Carbon Footprint: 4752.0
+
+Path: Node_2_3 -> Node_2_0 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_2_3 -> Node_2_1 -> Availability: 0.9605950494039899, Path Availability: 0.9800990198999999, Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 14, Carbon Footprint: 2472.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 14, Carbon Footprint: 2472.0
+
+Path: Node_2_3 -> Node_2_2 -> Availability: 0.9702989999999999, Path Availability: 0.99, Latency: 3, Carbon Footprint: 1728.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 3, Carbon Footprint: 1728.0
+
+Path: Node_2_3 -> Node_2_3 -> Availability: 0.9801, Path Availability: 1, Latency: 1, Carbon Footprint: 792.0
+  Channel: ['Node_2_3'], Latency: 1, Carbon Footprint: 792.0
+
+Path: Node_2_3 -> Node_3_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_3 -> Node_3_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_3 -> Node_3_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_2_3 -> Node_3_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_0', 'CoreSwitch_0_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_2_3', 'EdgeSwitch_2_1', 'AggrSwitch_2_1', 'CoreSwitch_1_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_0_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_0_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_0_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_0_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_1_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_1_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_1_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_1_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_2_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_2_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_2_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_2_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_0 -> Node_3_0 -> Availability: 0.998001, Path Availability: 1, Latency: 10, Carbon Footprint: 1680.0
+  Channel: ['Node_3_0'], Latency: 10, Carbon Footprint: 1680.0
+
+Path: Node_3_0 -> Node_3_1 -> Availability: 0.98802099, Path Availability: 0.99, Latency: 21, Carbon Footprint: 3504.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 21, Carbon Footprint: 3504.0
+
+Path: Node_3_0 -> Node_3_2 -> Availability: 0.9781398019592198, Path Availability: 0.9800990198999999, Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 32, Carbon Footprint: 4248.0
+
+Path: Node_3_0 -> Node_3_3 -> Availability: 0.9781398019592198, Path Availability: 0.9800990198999999, Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_0', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 32, Carbon Footprint: 4248.0
+
+Path: Node_3_1 -> Node_0_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_1 -> Node_0_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_1 -> Node_0_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_1 -> Node_0_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_1 -> Node_1_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_1 -> Node_1_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_1 -> Node_1_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_1 -> Node_1_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_1 -> Node_2_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_1 -> Node_2_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_1 -> Node_2_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_1 -> Node_2_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_1 -> Node_3_0 -> Availability: 0.98802099, Path Availability: 0.99, Latency: 21, Carbon Footprint: 3504.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 21, Carbon Footprint: 3504.0
+
+Path: Node_3_1 -> Node_3_1 -> Availability: 0.998001, Path Availability: 1, Latency: 10, Carbon Footprint: 1680.0
+  Channel: ['Node_3_1'], Latency: 10, Carbon Footprint: 1680.0
+
+Path: Node_3_1 -> Node_3_2 -> Availability: 0.9781398019592198, Path Availability: 0.9800990198999999, Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 32, Carbon Footprint: 4248.0
+
+Path: Node_3_1 -> Node_3_3 -> Availability: 0.9781398019592198, Path Availability: 0.9800990198999999, Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_0', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_1', 'EdgeSwitch_3_0', 'AggrSwitch_3_1', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 32, Carbon Footprint: 4248.0
+
+Path: Node_3_2 -> Node_0_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_2 -> Node_0_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_2 -> Node_0_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_2 -> Node_0_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_2 -> Node_1_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_2 -> Node_1_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_2 -> Node_1_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_2 -> Node_1_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_2 -> Node_2_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_2 -> Node_2_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_2 -> Node_2_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_2 -> Node_2_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_2 -> Node_3_0 -> Availability: 0.9781398019592198, Path Availability: 0.9800990198999999, Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 32, Carbon Footprint: 4248.0
+
+Path: Node_3_2 -> Node_3_1 -> Availability: 0.9781398019592198, Path Availability: 0.9800990198999999, Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 32, Carbon Footprint: 4248.0
+
+Path: Node_3_2 -> Node_3_2 -> Availability: 0.998001, Path Availability: 1, Latency: 10, Carbon Footprint: 1680.0
+  Channel: ['Node_3_2'], Latency: 10, Carbon Footprint: 1680.0
+
+Path: Node_3_2 -> Node_3_3 -> Availability: 0.98802099, Path Availability: 0.99, Latency: 21, Carbon Footprint: 3504.0
+  Channel: ['Node_3_2', 'EdgeSwitch_3_1', 'Node_3_3'] , Latency: 21, Carbon Footprint: 3504.0
+
+Path: Node_3_3 -> Node_0_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_3 -> Node_0_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_0', 'Node_0_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_3 -> Node_0_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_3 -> Node_0_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_0_0', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_0_1', 'EdgeSwitch_0_1', 'Node_0_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_3 -> Node_1_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_3 -> Node_1_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_0', 'Node_1_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_3 -> Node_1_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_3 -> Node_1_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_1_0', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_1_1', 'EdgeSwitch_1_1', 'Node_1_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_3 -> Node_2_0 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_0'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_3 -> Node_2_1 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_0', 'Node_2_1'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_3 -> Node_2_2 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_2'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_3 -> Node_2_3 -> Availability: 0.9693287009999999, Path Availability: 0.9801, Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_0', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'CoreSwitch_0_1', 'AggrSwitch_2_0', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_0', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'CoreSwitch_1_1', 'AggrSwitch_2_1', 'EdgeSwitch_2_1', 'Node_2_3'] , Latency: 43, Carbon Footprint: 5640.0
+
+Path: Node_3_3 -> Node_3_0 -> Availability: 0.9781398019592198, Path Availability: 0.9800990198999999, Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_0'] , Latency: 32, Carbon Footprint: 4248.0
+
+Path: Node_3_3 -> Node_3_1 -> Availability: 0.9781398019592198, Path Availability: 0.9800990198999999, Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_0', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 32, Carbon Footprint: 4248.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'AggrSwitch_3_1', 'EdgeSwitch_3_0', 'Node_3_1'] , Latency: 32, Carbon Footprint: 4248.0
+
+Path: Node_3_3 -> Node_3_2 -> Availability: 0.98802099, Path Availability: 0.99, Latency: 21, Carbon Footprint: 3504.0
+  Channel: ['Node_3_3', 'EdgeSwitch_3_1', 'Node_3_2'] , Latency: 21, Carbon Footprint: 3504.0
+
+Path: Node_3_3 -> Node_3_3 -> Availability: 0.998001, Path Availability: 1, Latency: 10, Carbon Footprint: 1680.0
+  Channel: ['Node_3_3'], Latency: 10, Carbon Footprint: 1680.0
+

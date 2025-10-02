@@ -1,0 +1,6 @@
+{
+	"java.configuration.updateBuildConfiguration": "interactive",
+	"java.debug.settings.onBuildFailureProceed": true,
+	"java.debug.settings.showQualifiedNames": false,
+	"java.debug.settings.showStaticVariables": true
+}

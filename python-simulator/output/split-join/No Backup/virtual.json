@@ -1,0 +1,620 @@
+{
+  "nodes": [
+    {
+      "size": 1000,
+      "bw": 1500000,
+      "name": "video0-2",
+      "mips": 15000,
+      "type": "vm",
+      "pes": 6,
+      "ram": 512,
+      "datacenter": "dc1",
+      "host": "36985979237",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "size": 1000,
+      "bw": 1500000,
+      "name": "audiotranscoder0-2",
+      "mips": 12000,
+      "type": "vm",
+      "pes": 4,
+      "ram": 256,
+      "datacenter": "dc1",
+      "host": "36985979237",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "mipoper": 300,
+      "size": 12,
+      "bw": 1500000,
+      "name": "multiplex0",
+      "mips": 10000,
+      "type": "Multiplex",
+      "pes": 6,
+      "ram": 12,
+      "datacenter": "dc1",
+      "host": "36985979237",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "size": 1000,
+      "bw": 1500000,
+      "name": "audiotranscoder0-0",
+      "mips": 12000,
+      "type": "vm",
+      "pes": 4,
+      "ram": 256,
+      "datacenter": "dc1",
+      "host": "55668766",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "size": 1000,
+      "bw": 1500000,
+      "name": "videotranscoder0-2",
+      "mips": 25000,
+      "type": "vm",
+      "pes": 12,
+      "ram": 512,
+      "datacenter": "dc1",
+      "host": "282474359989",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "mipoper": 500,
+      "size": 16,
+      "bw": 1500000,
+      "name": "avsplit1",
+      "mips": 15000,
+      "type": "AVSplit",
+      "pes": 8,
+      "ram": 16,
+      "datacenter": "dc1",
+      "host": "24889958242",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "size": 1000,
+      "bw": 1500000,
+      "name": "video0-1",
+      "mips": 15000,
+      "type": "vm",
+      "pes": 6,
+      "ram": 512,
+      "datacenter": "dc1",
+      "host": "55668766",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "size": 1000,
+      "bw": 1500000,
+      "name": "videotranscoder0-0",
+      "mips": 25000,
+      "type": "vm",
+      "pes": 12,
+      "ram": 512,
+      "datacenter": "dc1",
+      "host": "346332049335",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "size": 1000,
+      "bw": 1500000,
+      "name": "audiotranscoder0-1",
+      "mips": 12000,
+      "type": "vm",
+      "pes": 4,
+      "ram": 256,
+      "datacenter": "dc1",
+      "host": "24889958242",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "mipoper": 500,
+      "size": 16,
+      "bw": 1500000,
+      "name": "avsplit0",
+      "mips": 15000,
+      "type": "AVSplit",
+      "pes": 8,
+      "ram": 16,
+      "datacenter": "dc1",
+      "host": "311861415781",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "size": 1000,
+      "bw": 1500000,
+      "name": "videotranscoder0-1",
+      "mips": 25000,
+      "type": "vm",
+      "pes": 12,
+      "ram": 512,
+      "datacenter": "dc1",
+      "host": "10633245306",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "size": 1000,
+      "bw": 1500000,
+      "name": "inetap0-1",
+      "mips": 12000,
+      "type": "vm",
+      "pes": 4,
+      "ram": 256,
+      "datacenter": "dc1",
+      "host": "346549807879",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "mipoper": 300,
+      "size": 12,
+      "bw": 1500000,
+      "name": "multiplex1",
+      "mips": 10000,
+      "type": "Multiplex",
+      "pes": 6,
+      "ram": 12,
+      "datacenter": "dc1",
+      "host": "346549807879",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "size": 1000,
+      "bw": 1500000,
+      "name": "inetap0-0",
+      "mips": 12000,
+      "type": "vm",
+      "pes": 4,
+      "ram": 256,
+      "datacenter": "dc1",
+      "host": "346549807879",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "size": 1000,
+      "bw": 1500000,
+      "name": "video0-0",
+      "mips": 15000,
+      "type": "vm",
+      "pes": 6,
+      "ram": 512,
+      "datacenter": "dc1",
+      "host": "311861415781",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    },
+    {
+      "size": 1000,
+      "bw": 1500000,
+      "name": "inetap0-2",
+      "mips": 12000,
+      "type": "vm",
+      "pes": 4,
+      "ram": 256,
+      "datacenter": "dc1",
+      "host": "346332049335",
+      "availability": 0.9999,
+      "processing_delay": 1,
+      "backup_of": 0
+    }
+  ],
+  "policies": [
+    {
+      "sfc": [
+        "avsplit0"
+      ],
+      "name": "sfc-video0-0audiotranscoder0-0",
+      "destination": "audiotranscoder0-0",
+      "flowname": "video0-0audiotranscoder0-0",
+      "source": "video0-0",
+      "expected_time": 2.0
+    },
+    {
+      "sfc": [
+        "avsplit1"
+      ],
+      "name": "sfc-video0-1audiotranscoder0-1",
+      "destination": "audiotranscoder0-1",
+      "flowname": "video0-1audiotranscoder0-1",
+      "source": "video0-1",
+      "expected_time": 2.0
+    },
+    {
+      "sfc": [
+        "avsplit0"
+      ],
+      "name": "sfc-video0-2audiotranscoder0-2",
+      "destination": "audiotranscoder0-2",
+      "flowname": "video0-2audiotranscoder0-2",
+      "source": "video0-2",
+      "expected_time": 2.0
+    },
+    {
+      "sfc": [
+        "multiplex0"
+      ],
+      "name": "sfc-audiotranscoder0-0inetap0-0",
+      "destination": "inetap0-0",
+      "flowname": "audiotranscoder0-0inetap0-0",
+      "source": "audiotranscoder0-0",
+      "expected_time": 2.5
+    },
+    {
+      "sfc": [
+        "multiplex1"
+      ],
+      "name": "sfc-audiotranscoder0-1inetap0-1",
+      "destination": "inetap0-1",
+      "flowname": "audiotranscoder0-1inetap0-1",
+      "source": "audiotranscoder0-1",
+      "expected_time": 2.5
+    },
+    {
+      "sfc": [
+        "multiplex0"
+      ],
+      "name": "sfc-audiotranscoder0-2inetap0-2",
+      "destination": "inetap0-2",
+      "flowname": "audiotranscoder0-2inetap0-2",
+      "source": "audiotranscoder0-2",
+      "expected_time": 2.5
+    },
+    {
+      "sfc": [
+        "avsplit0"
+      ],
+      "name": "sfc-video0-0videotranscoder0-0",
+      "destination": "videotranscoder0-0",
+      "flowname": "video0-0videotranscoder0-0",
+      "source": "video0-0",
+      "expected_time": 2.5
+    },
+    {
+      "sfc": [
+        "avsplit1"
+      ],
+      "name": "sfc-video0-1videotranscoder0-1",
+      "destination": "videotranscoder0-1",
+      "flowname": "video0-1videotranscoder0-1",
+      "source": "video0-1",
+      "expected_time": 2.5
+    },
+    {
+      "sfc": [
+        "avsplit0"
+      ],
+      "name": "sfc-video0-2videotranscoder0-2",
+      "destination": "videotranscoder0-2",
+      "flowname": "video0-2videotranscoder0-2",
+      "source": "video0-2",
+      "expected_time": 2.5
+    },
+    {
+      "sfc": [
+        "multiplex0"
+      ],
+      "name": "sfc-videotranscoder0-0inetap0-0",
+      "destination": "inetap0-0",
+      "flowname": "videotranscoder0-0inetap0-0",
+      "source": "videotranscoder0-0",
+      "expected_time": 3.0
+    },
+    {
+      "sfc": [
+        "multiplex1"
+      ],
+      "name": "sfc-videotranscoder0-1inetap0-1",
+      "destination": "inetap0-1",
+      "flowname": "videotranscoder0-1inetap0-1",
+      "source": "videotranscoder0-1",
+      "expected_time": 3.0
+    },
+    {
+      "sfc": [
+        "multiplex0"
+      ],
+      "name": "sfc-videotranscoder0-2inetap0-2",
+      "destination": "inetap0-2",
+      "flowname": "videotranscoder0-2inetap0-2",
+      "source": "videotranscoder0-2",
+      "expected_time": 3.0
+    }
+  ],
+  "links": [
+    {
+      "name": "default",
+      "destination": "videotranscoder0-0",
+      "source": "inetap0-0"
+    },
+    {
+      "name": "default",
+      "destination": "inetap0-2",
+      "source": "videotranscoder0-2"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "audiotranscoder0-1video0-1",
+      "destination": "video0-1",
+      "source": "audiotranscoder0-1"
+    },
+    {
+      "name": "default",
+      "destination": "audiotranscoder0-1",
+      "source": "inetap0-1"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "inetap0-1videotranscoder0-1",
+      "destination": "videotranscoder0-1",
+      "source": "inetap0-1"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "video0-1audiotranscoder0-1",
+      "destination": "audiotranscoder0-1",
+      "source": "video0-1"
+    },
+    {
+      "name": "default",
+      "destination": "inetap0-0",
+      "source": "videotranscoder0-0"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "video0-2audiotranscoder0-2",
+      "destination": "audiotranscoder0-2",
+      "source": "video0-2"
+    },
+    {
+      "name": "default",
+      "destination": "videotranscoder0-0",
+      "source": "video0-0"
+    },
+    {
+      "name": "default",
+      "destination": "video0-2",
+      "source": "videotranscoder0-2"
+    },
+    {
+      "name": "default",
+      "destination": "videotranscoder0-2",
+      "source": "video0-2"
+    },
+    {
+      "name": "default",
+      "destination": "audiotranscoder0-0",
+      "source": "inetap0-0"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "audiotranscoder0-0video0-0",
+      "destination": "video0-0",
+      "source": "audiotranscoder0-0"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "video0-0audiotranscoder0-0",
+      "destination": "audiotranscoder0-0",
+      "source": "video0-0"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "inetap0-0audiotranscoder0-0",
+      "destination": "audiotranscoder0-0",
+      "source": "inetap0-0"
+    },
+    {
+      "name": "default",
+      "destination": "videotranscoder0-1",
+      "source": "inetap0-1"
+    },
+    {
+      "name": "default",
+      "destination": "video0-0",
+      "source": "videotranscoder0-0"
+    },
+    {
+      "name": "default",
+      "destination": "videotranscoder0-1",
+      "source": "video0-1"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "videotranscoder0-2video0-2",
+      "destination": "video0-2",
+      "source": "videotranscoder0-2"
+    },
+    {
+      "name": "default",
+      "destination": "inetap0-1",
+      "source": "audiotranscoder0-1"
+    },
+    {
+      "name": "default",
+      "destination": "audiotranscoder0-2",
+      "source": "inetap0-2"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "videotranscoder0-2inetap0-2",
+      "destination": "inetap0-2",
+      "source": "videotranscoder0-2"
+    },
+    {
+      "name": "default",
+      "destination": "video0-0",
+      "source": "audiotranscoder0-0"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "videotranscoder0-1video0-1",
+      "destination": "video0-1",
+      "source": "videotranscoder0-1"
+    },
+    {
+      "name": "default",
+      "destination": "video0-2",
+      "source": "audiotranscoder0-2"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "audiotranscoder0-1inetap0-1",
+      "destination": "inetap0-1",
+      "source": "audiotranscoder0-1"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "videotranscoder0-0video0-0",
+      "destination": "video0-0",
+      "source": "videotranscoder0-0"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "video0-0videotranscoder0-0",
+      "destination": "videotranscoder0-0",
+      "source": "video0-0"
+    },
+    {
+      "name": "default",
+      "destination": "audiotranscoder0-2",
+      "source": "video0-2"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "video0-2videotranscoder0-2",
+      "destination": "videotranscoder0-2",
+      "source": "video0-2"
+    },
+    {
+      "name": "default",
+      "destination": "audiotranscoder0-1",
+      "source": "video0-1"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "inetap0-2videotranscoder0-2",
+      "destination": "videotranscoder0-2",
+      "source": "inetap0-2"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "inetap0-1audiotranscoder0-1",
+      "destination": "audiotranscoder0-1",
+      "source": "inetap0-1"
+    },
+    {
+      "name": "default",
+      "destination": "inetap0-2",
+      "source": "audiotranscoder0-2"
+    },
+    {
+      "name": "default",
+      "destination": "inetap0-0",
+      "source": "audiotranscoder0-0"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "inetap0-0videotranscoder0-0",
+      "destination": "videotranscoder0-0",
+      "source": "inetap0-0"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "audiotranscoder0-2video0-2",
+      "destination": "video0-2",
+      "source": "audiotranscoder0-2"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "audiotranscoder0-2inetap0-2",
+      "destination": "inetap0-2",
+      "source": "audiotranscoder0-2"
+    },
+    {
+      "name": "default",
+      "destination": "inetap0-1",
+      "source": "videotranscoder0-1"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "video0-1videotranscoder0-1",
+      "destination": "videotranscoder0-1",
+      "source": "video0-1"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "videotranscoder0-1inetap0-1",
+      "destination": "inetap0-1",
+      "source": "videotranscoder0-1"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "videotranscoder0-0inetap0-0",
+      "destination": "inetap0-0",
+      "source": "videotranscoder0-0"
+    },
+    {
+      "name": "default",
+      "destination": "video0-1",
+      "source": "videotranscoder0-1"
+    },
+    {
+      "name": "default",
+      "destination": "video0-1",
+      "source": "audiotranscoder0-1"
+    },
+    {
+      "name": "default",
+      "destination": "videotranscoder0-2",
+      "source": "inetap0-2"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "inetap0-2audiotranscoder0-2",
+      "destination": "audiotranscoder0-2",
+      "source": "inetap0-2"
+    },
+    {
+      "name": "default",
+      "destination": "audiotranscoder0-0",
+      "source": "video0-0"
+    },
+    {
+      "bandwidth": 2000000,
+      "name": "audiotranscoder0-0inetap0-0",
+      "destination": "inetap0-0",
+      "source": "audiotranscoder0-0"
+    }
+  ]
+}

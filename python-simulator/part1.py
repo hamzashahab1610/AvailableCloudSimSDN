@@ -1,0 +1,81 @@
+import sys, os, time, pickle, config, json
+
+sys.path.append(os.path.join(os.path.dirname(__file__), "setup"))
+
+from large_scale.sfc_generator import (sfcs,convert_to_virtual_topology_json)
+
+from large_scale.topology_generator import (
+    create_reduced_topology_from_system,
+)
+
+if os.path.exists("system.pkl"):
+    with open("system.pkl", "rb") as file:
+        system = pickle.load(file)
+    print("Loaded saved system object.")
+else:
+    from large_scale.system import system
+
+    print("Initialized a new system object.")
+    with open("system.pkl", "wb") as file:
+        pickle.dump(system, file)
+    print("System object saved successfully.")
+
+from algorithms.VNFPlacement import (
+    AvailabilityAwareVNFPlacement,
+    CarbonAwareVNFPlacement,
+    TradeoffAwareVNFPlacement,
+)
+
+system.min_availability = config.MIN_AVAILABILITY
+system.min_carbon_footprint = config.MIN_CARBON_FOOTPRINT
+system.max_carbon_footprint = config.MAX_CARBON_FOOTPRINT
+start_time = time.time()
+
+for sfc in sfcs:
+    system.sfcs.append(sfc)
+    sfc.system = system
+
+policy = None
+
+if config.EMBEDDING_POLICY == "AAE":
+    policy = AvailabilityAwareVNFPlacement.AvailabilityAwareVNFPlacement(system)
+elif config.EMBEDDING_POLICY == "CAE":
+    policy = CarbonAwareVNFPlacement.CarbonAwareVNFPlacement(system)
+elif config.EMBEDDING_POLICY == "TAE":
+    policy = TradeoffAwareVNFPlacement.TradeoffAwareVNFPlacement(system)
+else:
+    raise ValueError("Invalid embedding policy")
+    
+system = policy.placement()
+
+end_time = time.time()
+time_taken = end_time - start_time
+print(f"Time taken: {time_taken}")
+
+G, physical_topology = create_reduced_topology_from_system(system, 0)
+
+virtual_topology = convert_to_virtual_topology_json(sfcs, "virtual-serial.json")
+# virtual_topology = convert_to_virtual_topology_json(sfcs, "virtual-split-join.json")
+
+# Create directory for policy combination
+config.ensure_output_dir_exists()
+
+# Write files using config paths
+config.write_placement_file(system, config.get_placements_path())
+config.write_placement_file(system, config.get_backup_placements_path())
+
+with open(config.get_physical_json_path(), "w") as f:
+    json.dump(physical_topology, f, indent=2)
+
+with open(config.get_virtual_json_path(), "w") as f:
+    json.dump(virtual_topology, f, indent=2)
+
+with open(config.get_system_pkl_path(), "wb") as file:
+    pickle.dump(system, file)
+
+with open(config.get_system_backup_pkl_path(), "wb") as file:
+    pickle.dump(system, file)
+
+system.calculate_availability()
+system.calculate_carbon_footprint()
+system.print_placement()

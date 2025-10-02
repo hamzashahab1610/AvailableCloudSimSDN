@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pyo
+system_simulator.pkl
+system_simulator_backup.pkl
+*.csv
