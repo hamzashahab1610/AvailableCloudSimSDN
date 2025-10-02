@@ -5,7 +5,6 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import LabelEncoder
 from values import calculated_accuracies, calculated_execution_times
-# from sklearn.metrics import precision_score, recall_score, f1_score, roc_auc_score
 
 # Window sizes
 window_sizes_to_test = [60, 55, 50, 45, 40, 35, 30, 25, 20, 15, 10, 5]

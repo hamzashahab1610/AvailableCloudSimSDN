@@ -3,7 +3,6 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.tree import DecisionTreeClassifier
-# from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 from sklearn.preprocessing import LabelEncoder
 
@@ -56,7 +55,6 @@ models = [
     # ('Decision Tree', DecisionTreeClassifier()),
     # ('Random Forest', RandomForestClassifier()),
     ('Gradient Boosting', GradientBoostingClassifier()),
-    # ('Logistic Regression', LogisticRegression(solver='lbfgs', max_iter=1000, class_weight='balanced'))
 ]
 
 print("Training the models...")
@@ -81,10 +79,6 @@ for name, model in models:
     pickle.dump(model, open(model_path, "wb"))
 
     print(f'Accuracy: {accuracy_score(y_test, y_pred):.4f}')
-    print(f'Precision: {precision_score(y_test, y_pred):.4f}')
-    print(f'Recall: {recall_score(y_test, y_pred):.4f}')
-    print(f'F1-score: {f1_score(y_test, y_pred):.4f}')
-    print(f'AUC-ROC: {roc_auc_score(y_test, y_pred):.4f}')
     print(f'Execution Time (s): {execution_time:.2f}')
 
     # class_report = classification_report(y_test, y_pred)
